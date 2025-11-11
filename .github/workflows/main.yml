@@ -1,20 +1,24 @@
-            - nombre: Descargar un artefacto de compilación
-  usos: actions/download-artifact@v6.0.0
-  con:
-    # Nombre del artefacto que se va a descargar. Si no se especifica, se descargarán todos los artefactos de la ejecución.
-    nombre: # opcional
-    # Identificadores de los artefactos a descargar, separados por comas. Se puede usar cualquiera de las entradas `artifact-ids` o `name`, pero no ambas.
-    identificadores de artefactos: # opcional
-    # Ruta de destino. Admite la expansión básica de tilde. Por defecto, usa $GITHUB_WORKSPACE.
-    ruta: # opcional
-    # Patrón glob que coincide con los artefactos que deben descargarse. Se ignora si se especifica un nombre.
-    patrón: # opcional
-    Cuando se encuentran varios artefactos coincidentes, esto modifica el comportamiento de los directorios de destino. Si es verdadero, los artefactos descargados se guardarán en el mismo directorio especificado por la ruta. Si es falso, los artefactos descargados se extraerán en directorios individuales con nombre dentro de la ruta especificada.
-    merge-multiple: # opcional, el valor predeterminado es falso
-    # El token de GitHub utilizado para autenticarse con la API de GitHub. Es necesario para descargar artefactos de un repositorio diferente o de una ejecución de flujo de trabajo diferente. Si no se especifica, la acción intentará descargar los artefactos del repositorio actual y de la ejecución de flujo de trabajo actual.
-    token de GitHub: # opcional
-    # El propietario del repositorio y el nombre del repositorio unidos por "/". Si se especifica github-token, este es el repositorio desde el que se descargarán los artefactos.
-    repositorio: # opcional, el valor predeterminado es ${{ github.repository }}
-    # El ID de la ejecución del flujo de trabajo desde donde se subió el artefacto de descarga deseado. Si se especifica github-token, esta es la ejecución desde la que se descargarán los artefactos.
-    run-id: # opcional, el valor predeterminado es ${{ github.run_id }}
-          
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audífonos - Compra ahora!</title>
+</head>
+<body>
+    <header>
+        <h1>Audífonos</h1>
+    </header>
+    <main>
+        <section>
+            <h2>¡Compre ahora y disfrute de la mejor experiencia de audio!</h2>
+            <img src="https://media.criticalhit.net/2017/02/4.jpg" alt="Audífonos 1" width="200" height="200">
+            <img src="https://down-cl.img.susercontent.com/file/cl-11134201-23020-lkrb2v8s1mnv2f" alt="Audífonos 2" width="200" height="200">
+            <img src="https://zonagamer.co/cdn/shop/files/9_dc5ca0ef-fbd6-43f6-8ded-c7dacc8b37ab_1220x1220_crop_center.png?v=1725910064" alt="Audífonos 1" width="200" height="200">
+            <p>Los audífonos más avanzados del mercado, con tecnología de vanguardia y diseño innovador.</p>
+            <button>Comprar ahora</button>
+        </section>
+    </main>
+   
+</body>
+</html>
